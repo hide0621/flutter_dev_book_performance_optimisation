@@ -9,6 +9,7 @@ void main() {
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
+  /// BuildContext = Elementというクラス
   @override
   Widget build(BuildContext context) {
     /// [findAncestorWidgetOfExactType]
