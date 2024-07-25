@@ -38,6 +38,9 @@ class HomeScreen extends StatefulWidget {
   State createState() => _HomeScreenState();
 }
 
+/// このwidgetのボタンをタップすると、HomeScreenのカウンター（state）が増える
+/// 同時にCounterButtonウィジェットも呼ばれるが、このウィジェットのカウンター（state）は増えない
+/// このことから、StateのライフサイクルがWidgetのライフサイクルよりも長いことが分かる
 class _HomeScreenState extends State<HomeScreen> {
   int _counter = 0;
 
