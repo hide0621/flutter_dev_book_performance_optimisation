@@ -1,6 +1,6 @@
 # flutter_dev_book_performance_optimisation
 
-書籍「Flutter実践開発」の第9章の内容に基づくものです。
+書籍「Flutter実践開発」の第9章の1節から２節の内容に基づくものです。
 
 [Flutter実践開発 ─iPhone／Android両対応アプリ開発のテクニック - ](https://gihyo.jp/book/2024/978-4-297-13993-3)
 
